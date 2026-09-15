@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday Raj | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #f9f9f9; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="text-gray-900 antialiased min-h-screen flex flex-col">
+
+    <!-- Dark Top Bar Navigation -->
+    <div class="bg-gray-900 w-full shadow-md">
+        <nav class="max-w-6xl mx-auto w-full px-6 py-4 flex justify-between items-center">
+            <a href="#contact" class="border-2 border-white text-white px-5 py-2 rounded-full text-sm font-bold hover:bg-white hover:text-gray-900 transition-all duration-300">Contact</a>
+            
+            <div class="flex space-x-6 items-center">
+                <!-- GitHub Icon -->
+                <a href="https://github.com/udayraj-tech" target="_blank" class="text-gray-400 hover:text-white transition transform hover:scale-110">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" /></svg>
+                </a>
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/uday-raj-a17aa4320" target="_blank" class="text-gray-400 hover:text-blue-400 transition transform hover:scale-110">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" /></svg>
+                </a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1KYJnSnvps_UNIYX2XjsANfMqEyKq2tao/view?usp=sharing" target="_blank" class="bg-white text-gray-900 px-6 py-2 rounded-full text-sm font-bold hover:bg-gray-200 hover:-translate-y-1 hover:shadow-lg transition-all duration-300">Resume</a>
+        </nav>
+    </div>
+
+    <!-- Main Hero/About Section -->
+    <main class="flex items-center justify-center py-12 px-6">
+        <div class="max-w-5xl w-full mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12">
+            <div class="w-full md:w-3/5 text-left">
+                <h1 class="text-6xl md:text-7xl font-extrabold tracking-tight text-gray-900 mb-2 uppercase">Uday Raj</h1>
+                <h2 class="text-xl md:text-2xl font-semibold text-gray-500 mb-6 border-b-2 border-gray-200 inline-block pb-1">About me</h2>
+                <div class="text-gray-600 space-y-4 mb-8 leading-relaxed text-sm md:text-base">
+                    <p>I am a CSE (AI/ML) undergraduate specializing in building scalable data pipelines, local AI architectures, and quantitative models. I focus on writing high-performance C++ for core algorithms and Python for machine learning implementation.</p>
+                    <p>Rather than relying on closed-source APIs, I engineer solutions from the ground up. My goal is to bridge the gap between theoretical data structures and production-ready applications.</p>
+                </div>
+                <a href="#projects" class="inline-block border border-gray-300 text-gray-700 px-6 py-3 rounded-md text-sm font-bold hover:border-gray-900 hover:text-black transition">View Projects</a>
+            </div>
+            <div class="w-full md:w-2/5 flex justify-center md:justify-end">
+                <div class="w-64 h-80 bg-gray-200 border-2 border-dashed border-gray-400 rounded-xl flex items-center justify-center text-gray-500 overflow-hidden shadow-sm">
+                    <span class="text-sm font-medium">Photo Placeholder</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Skills Section -->
+    <section class="w-full max-w-5xl mx-auto px-6 py-12">
+        <h2 class="text-2xl font-extrabold text-gray-900 mb-2 uppercase">Core Stack</h2>
+        <div class="w-16 h-1 bg-gray-900 mb-8"></div>
+        <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-white border border-gray-200 rounded-lg text-sm font-bold shadow-sm hover:border-gray-900 transition">C++</span>
+            <span class="px-4 py-2 bg-white border border-gray-200 rounded-lg text-sm font-bold shadow-sm hover:border-gray-900 transition">Python</span>
+            <span class="px-4 py-2 bg-white border border-gray-200 rounded-lg text-sm font-bold shadow-sm hover:border-gray-900 transition">Data Structures & Algorithms</span>
+            <span class="px-4 py-2 bg-white border border-gray-200 rounded-lg text-sm font-bold shadow-sm hover:border-gray-900 transition">Scikit-learn</span>
+            <span class="px-4 py-2 bg-white border border-gray-200 rounded-lg text-sm font-bold shadow-sm hover:border-gray-900 transition">Pandas</span>
+            <span class="px-4 py-2 bg-white border border-gray-200 rounded-lg text-sm font-bold shadow-sm hover:border-gray-900 transition">Local LLMs (Ollama)</span>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="w-full max-w-5xl mx-auto px-6 py-12 flex-grow">
+        <h2 class="text-3xl font-extrabold text-gray-900 mb-2 uppercase">Projects</h2>
+        <div class="w-16 h-1 bg-gray-900 mb-10"></div>
+        
+        <!-- Category: AI & Machine Learning -->
+        <h3 class="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+            <span class="w-3 h-3 bg-red-500 rounded-full inline-block"></span> Artificial Intelligence & ML
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <a href="PUT_PROJECT_LINK_HERE" target="_blank" class="block p-6 bg-white border border-gray-200 rounded-xl hover:border-gray-900 hover:shadow-md transition-all group">
+                <h4 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">AI Voice Assistant (v0.1) ↗</h4>
+                <p class="text-sm text-gray-600 mt-2 mb-4">Local LLM inference engine ensuring complete data privacy via speech-to-text integration.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="text-xs font-semibold bg-gray-100 px-2 py-1 rounded">Python</span>
+                    <span class="text-xs font-semibold bg-gray-100 px-2 py-1 rounded">Ollama</span>
+                </div>
+            </a>
+
+            <a href="PUT_PROJECT_LINK_HERE" target="_blank" class="block p-6 bg-white border border-gray-200 rounded-xl hover:border-gray-900 hover:shadow-md transition-all group">
+                <h4 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">AI WhatsApp Router ↗</h4>
+                <p class="text-sm text-gray-600 mt-2 mb-4">Priority-based message evaluation and routing system built during HackerRank Orchestrate.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="text-xs font-semibold bg-gray-100 px-2 py-1 rounded">Python</span>
+                    <span class="text-xs font-semibold bg-gray-100 px-2 py-1 rounded">AI Agents</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Category: Quantitative & Algorithmic -->
+        <h3 class="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+            <span class="w-3 h-3 bg-blue-500 rounded-full inline-block"></span> Quantitative Models
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            <a href="PUT_PROJECT_LINK_HERE" target="_blank" class="block p-6 bg-white border border-gray-200 rounded-xl hover:border-gray-900 hover:shadow-md transition-all group border-dashed border-2">
+                <h4 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">[Insert Quant Project] ↗</h4>
+                <p class="text-sm text-gray-600 mt-2 mb-4">Replace this with a real C++ low-latency system. Do not leave this empty or fake it.</p>
+                <div class="flex flex-wrap gap-2 mt-auto">
+                    <span class="text-xs font-semibold bg-gray-100 px-2 py-1 rounded">C++</span>
+                    <span class="text-xs font-semibold bg-gray-100 px-2 py-1 rounded">Math</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Colored Contact Footer -->
+    <footer id="contact" class="bg-gray-900 text-white w-full py-16 mt-12">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-extrabold mb-4 uppercase">Let's Build Systems</h2>
+            <p class="text-gray-400 mb-8 max-w-lg mx-auto text-sm">Open to Summer 2027 AI/ML and Quantitative engineering internships. Reach out if you're working on hard problems.</p>
+            <a href="mailto:PUT_YOUR_EMAIL_HERE" class="inline-block bg-white text-gray-900 px-8 py-3 rounded-full text-sm font-bold hover:bg-gray-200 hover:-translate-y-1 transition-all duration-300 shadow-lg">Say Hello</a>
+        </div>
+    </footer>
+
+</body>
+</html>
